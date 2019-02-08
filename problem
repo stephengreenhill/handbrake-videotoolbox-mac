@@ -1,0 +1,499 @@
+[09:26:36] macgui: Handbrake Version: 1.2.0  (2018122200)
+[09:26:36] hb_init: starting libhb thread
+[09:26:36] hb_init: starting libhb thread
+[09:26:57] macgui: trying to open a folder or file
+[09:26:57] macgui: ScanCore scanning titles with a duration of 10 seconds or more
+[09:26:57] CPU: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
+[09:26:57]  - Intel microarchitecture Kaby Lake
+[09:26:57]  - logical processor count: 12
+[09:26:57] hb_scan: path=/Volumes/Drobo/MKVs/Star Trek II The Wrath of Khan_t00.mkv, title_index=0
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:323: failed opening UDF image /Volumes/Drobo/MKVs/Star Trek II The Wrath of Khan_t00.mkv
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+[09:26:58] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 6.0.0
+libdvdread: Encrypted DVD support unavailable.
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[09:26:58] dvd: not a dvd - trying as a stream/file instead
+Input #0, matroska,webm, from '/Volumes/Drobo/MKVs/Star Trek II The Wrath of Khan_t00.mkv':
+  Metadata:
+    title           : Star Trek II The Wrath of Khan
+    encoder         : libmakemkv v1.14.2 (1.3.5/1.4.7) darwin(x64-release)
+    creation_time   : 2019-02-02T20:27:35.000000Z
+  Duration: 01:53:01.82, start: 0.000000, bitrate: 37935 kb/s
+    Chapter #0:0: start 0.000000, end 178.636792
+    Metadata:
+      title           : Chapter 01
+    Chapter #0:1: start 178.636792, end 463.629833
+    Metadata:
+      title           : Chapter 02
+    Chapter #0:2: start 463.629833, end 701.283917
+    Metadata:
+      title           : Chapter 03
+    Chapter #0:3: start 701.283917, end 1526.775250
+    Metadata:
+      title           : Chapter 04
+    Chapter #0:4: start 1526.775250, end 1857.146958
+    Metadata:
+      title           : Chapter 05
+    Chapter #0:5: start 1857.146958, end 2492.198042
+    Metadata:
+      title           : Chapter 06
+    Chapter #0:6: start 2492.198042, end 2793.999542
+    Metadata:
+      title           : Chapter 07
+    Chapter #0:7: start 2793.999542, end 3367.405708
+    Metadata:
+      title           : Chapter 08
+    Chapter #0:8: start 3367.405708, end 3934.722458
+    Metadata:
+      title           : Chapter 09
+    Chapter #0:9: start 3934.722458, end 4253.332417
+    Metadata:
+      title           : Chapter 10
+    Chapter #0:10: start 4253.332417, end 4557.678125
+    Metadata:
+      title           : Chapter 11
+    Chapter #0:11: start 4557.678125, end 4686.223208
+    Metadata:
+      title           : Chapter 12
+    Chapter #0:12: start 4686.223208, end 4995.281958
+    Metadata:
+      title           : Chapter 13
+    Chapter #0:13: start 4995.281958, end 5318.896917
+    Metadata:
+      title           : Chapter 14
+    Chapter #0:14: start 5318.896917, end 5719.463750
+    Metadata:
+      title           : Chapter 15
+    Chapter #0:15: start 5719.463750, end 6453.405292
+    Metadata:
+      title           : Chapter 16
+    Chapter #0:16: start 6453.405292, end 6781.824000
+    Metadata:
+      title           : Chapter 17
+    Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn, 47.95 tbc
+    Metadata:
+      BPS-eng         : 32257681
+      DURATION-eng    : 01:53:01.816708333
+      NUMBER_OF_FRAMES-eng: 162601
+      NUMBER_OF_BYTES-eng: 27345707175
+      SOURCE_ID-eng   : 001011
+      _STATISTICS_WRITING_APP-eng: MakeMKV v1.14.2 darwin(x64-release)
+      _STATISTICS_WRITING_DATE_UTC-eng: 2019-02-02 20:27:35
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES SOURCE_ID
+    Stream #0:1(eng): Audio: truehd, 48000 Hz, 7.1, s32 (24 bit) (default)
+    Metadata:
+      title           : Surround 7.1
+      BPS-eng         : 4509367
+      DURATION-eng    : 01:53:01.817500000
+      NUMBER_OF_FRAMES-eng: 8138181
+      NUMBER_OF_BYTES-eng: 3822712938
+      SOURCE_ID-eng   : 001100
+      _STATISTICS_WRITING_APP-eng: MakeMKV v1.14.2 darwin(x64-release)
+      _STATISTICS_WRITING_DATE_UTC-eng: 2019-02-02 20:27:35
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES SOURCE_ID
+    Stream #0:2(eng): Audio: ac3, 48000 Hz, 5.1(side), fltp, 640 kb/s
+    Metadata:
+      title           : Surround 5.1
+      BPS-eng         : 640000
+      DURATION-eng    : 01:53:01.824000000
+      NUMBER_OF_FRAMES-eng: 211932
+      NUMBER_OF_BYTES-eng: 542545920
+      SOURCE_ID-eng   : 001100
+      _STATISTICS_WRITING_APP-eng: MakeMKV v1.14.2 darwin(x64-release)
+      _STATISTICS_WRITING_DATE_UTC-eng: 2019-02-02 20:27:35
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES SOURCE_ID
+    Stream #0:3(eng): Audio: ac3, 48000 Hz, stereo, fltp, 224 kb/s
+    Metadata:
+      title           : Stereo
+      BPS-eng         : 224000
+      DURATION-eng    : 01:53:01.824000000
+      NUMBER_OF_FRAMES-eng: 211932
+      NUMBER_OF_BYTES-eng: 189891072
+      SOURCE_ID-eng   : 001103
+      _STATISTICS_WRITING_APP-eng: MakeMKV v1.14.2 darwin(x64-release)
+      _STATISTICS_WRITING_DATE_UTC-eng: 2019-02-02 20:27:35
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES SOURCE_ID
+    Stream #0:4(eng): Audio: ac3, 48000 Hz, stereo, fltp, 224 kb/s
+    Metadata:
+      title           : Stereo
+      BPS-eng         : 224000
+      DURATION-eng    : 01:53:01.824000000
+      NUMBER_OF_FRAMES-eng: 211932
+      NUMBER_OF_BYTES-eng: 189891072
+      SOURCE_ID-eng   : 001104
+      _STATISTICS_WRITING_APP-eng: MakeMKV v1.14.2 darwin(x64-release)
+      _STATISTICS_WRITING_DATE_UTC-eng: 2019-02-02 20:27:35
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES SOURCE_ID
+    Stream #0:5(eng): Subtitle: hdmv_pgs_subtitle
+    Metadata:
+      BPS-eng         : 34013
+      DURATION-eng    : 01:44:26.572812500
+      NUMBER_OF_FRAMES-eng: 2168
+      NUMBER_OF_BYTES-eng: 26643173
+      SOURCE_ID-eng   : 001200
+      _STATISTICS_WRITING_APP-eng: MakeMKV v1.14.2 darwin(x64-release)
+      _STATISTICS_WRITING_DATE_UTC-eng: 2019-02-02 20:27:35
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES SOURCE_ID
+    Stream #0:6(eng): Subtitle: hdmv_pgs_subtitle
+    Metadata:
+      BPS-eng         : 36562
+      DURATION-eng    : 01:44:28.199437500
+      NUMBER_OF_FRAMES-eng: 2336
+      NUMBER_OF_BYTES-eng: 28647518
+      SOURCE_ID-eng   : 001201
+      _STATISTICS_WRITING_APP-eng: MakeMKV v1.14.2 darwin(x64-release)
+      _STATISTICS_WRITING_DATE_UTC-eng: 2019-02-02 20:27:35
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES SOURCE_ID
+[09:26:58] scan: decoding previews for title 1
+[09:26:58] scan: audio 0x1: truehd, rate=48000Hz, bitrate=1 English (TrueHD) (7.1 ch)
+[09:26:58] scan: audio 0x2: ac3, rate=48000Hz, bitrate=640000 English (AC3) (5.1 ch) (Dolby Digital EX)
+[09:26:58] scan: audio 0x3: ac3, rate=48000Hz, bitrate=224000 English (AC3) (2.0 ch)
+[09:26:58] scan: audio 0x4: ac3, rate=48000Hz, bitrate=224000 English (AC3) (2.0 ch)
+[09:27:00] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 144/136/6/4, aspect 16:9, PAR 1:1
+[09:27:00] libhb: scan thread found 1 valid title(s)
+[09:27:00] macgui: ScanCore scan done
+[09:28:10] macgui: QueueCore prevented sleep
+[09:28:10] macgui: QueueCore scanning specifically for title: 1
+[09:28:10] CPU: Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
+[09:28:10]  - Intel microarchitecture Kaby Lake
+[09:28:10]  - logical processor count: 12
+[09:28:10] hb_scan: path=/Volumes/Drobo/MKVs/Star Trek II The Wrath of Khan_t00.mkv, title_index=1
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:323: failed opening UDF image /Volumes/Drobo/MKVs/Star Trek II The Wrath of Khan_t00.mkv
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+[09:28:10] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 6.0.0
+libdvdread: Encrypted DVD support unavailable.
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[09:28:10] dvd: not a dvd - trying as a stream/file instead
+Input #0, matroska,webm, from '/Volumes/Drobo/MKVs/Star Trek II The Wrath of Khan_t00.mkv':
+  Metadata:
+    title           : Star Trek II The Wrath of Khan
+    encoder         : libmakemkv v1.14.2 (1.3.5/1.4.7) darwin(x64-release)
+    creation_time   : 2019-02-02T20:27:35.000000Z
+  Duration: 01:53:01.82, start: 0.000000, bitrate: 37935 kb/s
+    Chapter #0:0: start 0.000000, end 178.636792
+    Metadata:
+      title           : Chapter 01
+    Chapter #0:1: start 178.636792, end 463.629833
+    Metadata:
+      title           : Chapter 02
+    Chapter #0:2: start 463.629833, end 701.283917
+    Metadata:
+      title           : Chapter 03
+    Chapter #0:3: start 701.283917, end 1526.775250
+    Metadata:
+      title           : Chapter 04
+    Chapter #0:4: start 1526.775250, end 1857.146958
+    Metadata:
+      title           : Chapter 05
+    Chapter #0:5: start 1857.146958, end 2492.198042
+    Metadata:
+      title           : Chapter 06
+    Chapter #0:6: start 2492.198042, end 2793.999542
+    Metadata:
+      title           : Chapter 07
+    Chapter #0:7: start 2793.999542, end 3367.405708
+    Metadata:
+      title           : Chapter 08
+    Chapter #0:8: start 3367.405708, end 3934.722458
+    Metadata:
+      title           : Chapter 09
+    Chapter #0:9: start 3934.722458, end 4253.332417
+    Metadata:
+      title           : Chapter 10
+    Chapter #0:10: start 4253.332417, end 4557.678125
+    Metadata:
+      title           : Chapter 11
+    Chapter #0:11: start 4557.678125, end 4686.223208
+    Metadata:
+      title           : Chapter 12
+    Chapter #0:12: start 4686.223208, end 4995.281958
+    Metadata:
+      title           : Chapter 13
+    Chapter #0:13: start 4995.281958, end 5318.896917
+    Metadata:
+      title           : Chapter 14
+    Chapter #0:14: start 5318.896917, end 5719.463750
+    Metadata:
+      title           : Chapter 15
+    Chapter #0:15: start 5719.463750, end 6453.405292
+    Metadata:
+      title           : Chapter 16
+    Chapter #0:16: start 6453.405292, end 6781.824000
+    Metadata:
+      title           : Chapter 17
+    Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn, 47.95 tbc
+    Metadata:
+      BPS-eng         : 32257681
+      DURATION-eng    : 01:53:01.816708333
+      NUMBER_OF_FRAMES-eng: 162601
+      NUMBER_OF_BYTES-eng: 27345707175
+      SOURCE_ID-eng   : 001011
+      _STATISTICS_WRITING_APP-eng: MakeMKV v1.14.2 darwin(x64-release)
+      _STATISTICS_WRITING_DATE_UTC-eng: 2019-02-02 20:27:35
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES SOURCE_ID
+    Stream #0:1(eng): Audio: truehd, 48000 Hz, 7.1, s32 (24 bit) (default)
+    Metadata:
+      title           : Surround 7.1
+      BPS-eng         : 4509367
+      DURATION-eng    : 01:53:01.817500000
+      NUMBER_OF_FRAMES-eng: 8138181
+      NUMBER_OF_BYTES-eng: 3822712938
+      SOURCE_ID-eng   : 001100
+      _STATISTICS_WRITING_APP-eng: MakeMKV v1.14.2 darwin(x64-release)
+      _STATISTICS_WRITING_DATE_UTC-eng: 2019-02-02 20:27:35
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES SOURCE_ID
+    Stream #0:2(eng): Audio: ac3, 48000 Hz, 5.1(side), fltp, 640 kb/s
+    Metadata:
+      title           : Surround 5.1
+      BPS-eng         : 640000
+      DURATION-eng    : 01:53:01.824000000
+      NUMBER_OF_FRAMES-eng: 211932
+      NUMBER_OF_BYTES-eng: 542545920
+      SOURCE_ID-eng   : 001100
+      _STATISTICS_WRITING_APP-eng: MakeMKV v1.14.2 darwin(x64-release)
+      _STATISTICS_WRITING_DATE_UTC-eng: 2019-02-02 20:27:35
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES SOURCE_ID
+    Stream #0:3(eng): Audio: ac3, 48000 Hz, stereo, fltp, 224 kb/s
+    Metadata:
+      title           : Stereo
+      BPS-eng         : 224000
+      DURATION-eng    : 01:53:01.824000000
+      NUMBER_OF_FRAMES-eng: 211932
+      NUMBER_OF_BYTES-eng: 189891072
+      SOURCE_ID-eng   : 001103
+      _STATISTICS_WRITING_APP-eng: MakeMKV v1.14.2 darwin(x64-release)
+      _STATISTICS_WRITING_DATE_UTC-eng: 2019-02-02 20:27:35
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES SOURCE_ID
+    Stream #0:4(eng): Audio: ac3, 48000 Hz, stereo, fltp, 224 kb/s
+    Metadata:
+      title           : Stereo
+      BPS-eng         : 224000
+      DURATION-eng    : 01:53:01.824000000
+      NUMBER_OF_FRAMES-eng: 211932
+      NUMBER_OF_BYTES-eng: 189891072
+      SOURCE_ID-eng   : 001104
+      _STATISTICS_WRITING_APP-eng: MakeMKV v1.14.2 darwin(x64-release)
+      _STATISTICS_WRITING_DATE_UTC-eng: 2019-02-02 20:27:35
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES SOURCE_ID
+    Stream #0:5(eng): Subtitle: hdmv_pgs_subtitle
+    Metadata:
+      BPS-eng         : 34013
+      DURATION-eng    : 01:44:26.572812500
+      NUMBER_OF_FRAMES-eng: 2168
+      NUMBER_OF_BYTES-eng: 26643173
+      SOURCE_ID-eng   : 001200
+      _STATISTICS_WRITING_APP-eng: MakeMKV v1.14.2 darwin(x64-release)
+      _STATISTICS_WRITING_DATE_UTC-eng: 2019-02-02 20:27:35
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES SOURCE_ID
+    Stream #0:6(eng): Subtitle: hdmv_pgs_subtitle
+    Metadata:
+      BPS-eng         : 36562
+      DURATION-eng    : 01:44:28.199437500
+      NUMBER_OF_FRAMES-eng: 2336
+      NUMBER_OF_BYTES-eng: 28647518
+      SOURCE_ID-eng   : 001201
+      _STATISTICS_WRITING_APP-eng: MakeMKV v1.14.2 darwin(x64-release)
+      _STATISTICS_WRITING_DATE_UTC-eng: 2019-02-02 20:27:35
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES SOURCE_ID
+[09:28:10] scan: decoding previews for title 1
+[09:28:10] scan: audio 0x1: truehd, rate=48000Hz, bitrate=1 English (TrueHD) (7.1 ch)
+[09:28:10] scan: audio 0x2: ac3, rate=48000Hz, bitrate=640000 English (AC3) (5.1 ch) (Dolby Digital EX)
+[09:28:10] scan: audio 0x3: ac3, rate=48000Hz, bitrate=224000 English (AC3) (2.0 ch)
+[09:28:10] scan: audio 0x4: ac3, rate=48000Hz, bitrate=224000 English (AC3) (2.0 ch)
+[09:28:12] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 144/136/6/4, aspect 16:9, PAR 1:1
+[09:28:13] libhb: scan thread found 1 valid title(s)
+[09:28:13] macgui: QueueCore scan done
+[09:28:13] 1 job(s) to process
+[09:28:13] starting job
+[09:28:13] job configuration:
+[09:28:13]  * source
+[09:28:13]    + /Volumes/Drobo/MKVs/Star Trek II The Wrath of Khan_t00.mkv
+[09:28:13]    + title 1, chapter(s) 1 to 17
+[09:28:13]    + container: matroska,webm
+[09:28:13]    + data rate: 37935 kbps
+[09:28:13]  * destination
+[09:28:13]    + /Volumes/Drobo/Tagging/Star Trek II The Wrath of Khan t00.m4v
+[09:28:13]    + container: MPEG-4 (libavformat)
+[09:28:13]      + chapter markers
+[09:28:13]  * video track
+[09:28:13]    + decoder: h264
+[09:28:13]    + filters
+[09:28:13]      + Framerate Shaper (mode=0:rate=27000000/1126125)
+[09:28:13]        + frame rate: same as source (around 23.976 fps)
+[09:28:13]      + Crop and Scale (width=1910:height=800:crop-top=144:crop-bottom=136:crop-left=6:crop-right=4)
+[09:28:13]        + source: 1920 * 1080, crop (144/136/6/4): 1910 * 800, scale: 1910 * 800
+[09:28:13]    + Output geometry
+[09:28:13]      + storage dimensions: 1910 x 800
+[09:28:13]      + pixel aspect ratio: 1 : 1
+[09:28:13]      + display dimensions: 1910 x 800
+[09:28:13]    + encoder: H.265 (libavcodec)
+[09:28:13]      + preset:  default
+[09:28:13]      + bitrate: 4650 kbps, pass: 0
+[09:28:13]      + color profile: 1-1-1
+[09:28:13]  * audio track 1
+[09:28:13]    + decoder: English (TrueHD) (7.1 ch) (track 1, id 0x1)
+[09:28:13]      + samplerate: 48000 Hz
+[09:28:13]    + mixdown: Stereo
+[09:28:13]    + dither: triangular
+[09:28:13]    + encoder: AAC (Apple AudioToolbox)
+[09:28:13]      + bitrate: 160 kbps, samplerate: 48000 Hz
+[09:28:13]  * audio track 2
+[09:28:13]    + decoder: English (TrueHD) (7.1 ch) (track 1, id 0x1)
+[09:28:13]      + samplerate: 48000 Hz
+[09:28:13]    + mixdown: 7.1 Channels
+[09:28:13]    + dither: triangular
+[09:28:13]    + encoder: AAC (Apple AudioToolbox)
+[09:28:13]      + bitrate: 640 kbps, samplerate: 48000 Hz
+[09:28:13] macgui: QueueCore started encoding Star Trek II The Wrath of Khan t00.m4v
+[09:28:13] macgui: QueueCore with preset Apple TV 4/4K (Modified)
+[09:28:13] sync: expecting 162601 video frames
+[09:28:13] encavcodecInit: H.265 (VideoToolbox)
+[09:28:13] encavcodec: encoding with stored aspect 1/1
+[09:28:13] sync: first pts audio 0x1 is 0
+[09:28:13] sync: first pts audio 0x1 is 0
+[09:28:13] sync: first pts video is 0
+[09:28:13] sync: "Chapter 1" (1) at frame 1 time 0
+[mp4 @ 0x7fa2928fa000] pts (3753) < dts (7507) in stream 0
+error: avformatMux: track 0, av_interleaved_write_frame failed with error 'Invalid argument'
+[mp4 @ 0x7fa2928fa000] pts (18768) < dts (22522) in stream 0
+[09:28:16] work: average encoding speed for job is 0.000000 fps
+[09:28:16] vfr: lost time: 0 (0 frames)
+[09:28:16] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[09:28:16] truehd-decoder done: 27716 frames, 0 decoder errors
+[09:28:16] truehd-decoder done: 27717 frames, 0 decoder errors
+[09:28:16] h264-decoder done: 537 frames, 0 decoder errors
+[09:28:16] sync: got 500 frames, 162601 expected
+[09:28:16] sync: framerate min 23.981 fps, max 23.981 fps, avg 23.976 fps
+[mp4 @ 0x7fa2928fa000] pts (33783) < dts (37537) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (48798) < dts (52552) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (63813) < dts (67567) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (78828) < dts (82582) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (93843) < dts (97597) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (108858) < dts (112612) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (123873) < dts (127627) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (138888) < dts (142642) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (153903) < dts (157657) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (168918) < dts (172672) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (183933) < dts (187687) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (198948) < dts (202702) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (213963) < dts (217717) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (228978) < dts (232732) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (243993) < dts (247747) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (259008) < dts (262762) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (274023) < dts (277777) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (289038) < dts (292792) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (304053) < dts (307807) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (319068) < dts (322822) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (334083) < dts (337837) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (349098) < dts (352852) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (364113) < dts (367867) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (379128) < dts (382882) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (394143) < dts (397897) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (409158) < dts (412912) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (424173) < dts (427927) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (439188) < dts (442942) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (454203) < dts (457957) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (469218) < dts (472972) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (484233) < dts (487987) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (499248) < dts (503002) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (514263) < dts (518017) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (529278) < dts (533032) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (544293) < dts (548047) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (559308) < dts (563062) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (574323) < dts (578077) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (589338) < dts (593092) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (604353) < dts (608107) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (619368) < dts (623122) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (634383) < dts (638137) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (649398) < dts (653152) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (664413) < dts (668167) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (679428) < dts (683182) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (694443) < dts (698197) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (709458) < dts (713212) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (724473) < dts (728227) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (739488) < dts (743242) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (754503) < dts (758257) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (769518) < dts (773272) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (784533) < dts (788287) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (799548) < dts (803302) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (814563) < dts (818317) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (829578) < dts (833332) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (844593) < dts (848347) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (859608) < dts (863362) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (874623) < dts (878377) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (889638) < dts (893392) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (904653) < dts (908407) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (919668) < dts (923422) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (934683) < dts (938437) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (949698) < dts (953452) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (964713) < dts (968467) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (979728) < dts (983482) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (994743) < dts (998497) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1009758) < dts (1013512) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1024773) < dts (1028527) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1039788) < dts (1043542) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1054803) < dts (1058557) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1069818) < dts (1073572) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1084833) < dts (1088587) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1099848) < dts (1103602) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1114863) < dts (1118617) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1129878) < dts (1133632) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1144893) < dts (1148647) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1159908) < dts (1163662) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1174923) < dts (1178677) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1189938) < dts (1193692) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1204953) < dts (1208707) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1219968) < dts (1223722) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1234983) < dts (1238737) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1249998) < dts (1253752) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1265013) < dts (1268767) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1280028) < dts (1283782) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1295043) < dts (1298797) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1310058) < dts (1313812) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1325073) < dts (1328827) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1340088) < dts (1343842) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1355103) < dts (1358857) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1370118) < dts (1373872) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1385133) < dts (1388887) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1400148) < dts (1403902) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1415163) < dts (1418917) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1430178) < dts (1433932) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1445193) < dts (1448947) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1460208) < dts (1463962) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1475223) < dts (1478977) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1490238) < dts (1493992) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1505253) < dts (1509007) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1520268) < dts (1524022) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1535283) < dts (1539037) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1550298) < dts (1554052) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1565313) < dts (1569067) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1580328) < dts (1584082) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1595343) < dts (1599097) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1610358) < dts (1614112) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1625373) < dts (1629127) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1640388) < dts (1644142) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1655403) < dts (1659157) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1670418) < dts (1674172) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1685433) < dts (1689187) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1700448) < dts (1704202) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1715463) < dts (1719217) in stream 0
+[mp4 @ 0x7fa2928fa000] pts (1730478) < dts (1734232) in stream 0
+[09:28:16] mux: track 0, 465 frames, 8142991 bytes, 2844.98 kbps, fifo 512
+[09:28:16] mux: track 1, 1074 frames, 506193 bytes, 176.85 kbps, fifo 2048
+[09:28:16] mux: track 2, 1074 frames, 1844867 bytes, 644.55 kbps, fifo 2048
+[09:28:16] libhb: work result = 4
+[09:28:17] macgui: QueueCore work failed
+[09:28:17] macgui: Queue Done, there are no more pending encodes
+[09:28:17] macgui: QueueCore stopped preventing sleep
